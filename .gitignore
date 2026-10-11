@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Python artifacts (for future automation exercises)
+__pycache__/
+*.py[cod]
+
+# Terraform state and local cache
+.terraform/
+*.tfstate
+*.tfstate.*
